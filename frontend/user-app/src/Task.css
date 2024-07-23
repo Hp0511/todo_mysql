@@ -1,0 +1,131 @@
+.taskrow {
+    height: 2.3em;
+  }
+  
+  .taskcrit {
+    font-size: 13px;
+  }
+  
+  .cpbtarea {
+    width: 2%;
+  }
+  
+  .completedcb:hover {
+    cursor: pointer;
+  }
+  
+  .cpbtcontent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .cpbtcontent:hover .cpBt, .cpbtcontent:hover  {
+    color: #1c9fff;
+  }
+  
+  .psCb {
+    position: absolute;
+    color: #1c9fff;
+    cursor: pointer;
+    font-size: 20px !important;
+    z-index: 2;
+  }
+  
+  .cpBt {
+    position: absolute;
+    color: transparent;
+    cursor: pointer;
+    font-size: 20px !important;
+    z-index: 1;
+  }
+  
+  .undo{
+    position: absolute;
+    color: #1c9fff;
+    cursor: pointer;
+    font-size: 18px !important;
+  }
+  
+  .duedate {
+    width: 10%;
+  }
+  
+  .duedatect {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  
+  .calIcon {
+    margin-right: 3px;
+    color: transparent;
+  }
+  
+  .impcb {
+    padding-left: 40px;
+    width: 7%;
+    text-align: left;
+  }
+  
+  .tasktitle {
+    width: 38%;
+    padding-left: 13px;
+    text-align: left;
+  }
+  
+  .titlect {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .infoIcon {
+    margin-right: 10px;
+    font-size: 18px !important;
+    color: white;
+  }
+  
+  .calIcon {
+    font-size: 18px !important;
+  }
+  
+  .calIcon:hover {
+    cursor: pointer;
+  }
+
+  .starcontent {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: default;
+    width: 24px;
+    height: 24px;
+  }
+  
+  .imp1 {
+    position: absolute;
+    font-size: 18px;
+    color: #1c9fff;
+  }
+  
+  .imp1:hover, .imp2:hover {
+    cursor: pointer;
+  }
+
+  .editInput{
+    width: 90%;
+    font-size: 16px;
+    padding-left: 0px;
+  }
+  
+  .editInput:focus {
+    border: none; 
+    border-bottom:1px solid black;
+    outline: none; 
+  }
+
+  .cptitle {
+    text-decoration: line-through;
+  }

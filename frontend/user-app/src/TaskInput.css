@@ -1,0 +1,93 @@
+.Task {
+    margin-top: 3rem;
+    margin-bottom: 0px;
+    width: 97%;
+    height: 11.5vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .inputholder {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 55px;
+    width: 100%;
+    background-color: white;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+  }
+  
+  #taskinput {
+    width: 90%;
+    height: 20px;
+    border: none;
+    font-size: 15px;
+    margin-left: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+  }
+  
+  #taskinput:focus {
+    border: none;
+    outline: none;
+  }
+  
+  .smallTaskbutton {
+    padding-left: 22px;
+    line-height: 8px;
+    color: #1c9fff;
+    cursor: pointer;
+  }
+  
+  .taskBtn {
+    display: flex;
+    width: 100%;
+    height: 60%;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #faf9f8;
+    border-style: hidden;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+  }
+  
+  .righttaskBtn {
+    margin-right: 20px;
+  }
+  
+  .addbutton {
+    background-color: white;
+    border: none;
+    width: 30px;
+    height: 30px;
+    padding-right: 30px;
+    border-radius: 3px;
+    border: 10px;
+    color: gray;
+    cursor: not-allowed;
+  }
+  
+  .addbutton:focus{
+    border: none;
+    outline: none;
+  }
+  
+  .lefttaskBtn {
+    margin-left: 14.5px;
+  }
+  
+  .funcBtn {
+    background-color: transparent;
+    border: none;
+    border-radius: 6px;
+    font-size: 0.1px;
+  }
+  
+  .funcBtn:hover {
+    background-color: white;
+  }

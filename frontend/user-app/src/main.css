@@ -1,0 +1,35 @@
+body {
+  background-color: #f3f2f1;
+  margin: 0;
+  padding: 0;
+  font-family: "Arial", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+#menu{
+  width: 100%;
+}
+
+#toolBar{
+  width: 100%;
+}
+
+#task {
+  width: 96.5%;
+}
+
+#taskCt{
+  width: 96.5%;;
+}
